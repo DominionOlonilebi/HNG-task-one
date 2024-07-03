@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominion Olonilebi hng_task1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="section">
+
+        <!-------Slack Image-------->
+        <div class="profile-img">
+            <img src="./images/profile.jpg"  data-testid="slackProfilePicture" alt="Profile pics">
+        </div>
+
+           <div class="container">
+
+            <!-------Display Name------>
+       <div class="home-text">
+        <h1 data-testid="slackDisplayName"></h1>
+        </div>
+    
+<!--------Mail------->
+        <div class="email">
+            <p data-testid="slackEmail"></p>
+        </div>
+
+        <!--------Date Div---------->
+        <div class="date">
+           <p> <i class='bx bx-calendar-plus'>&nbsp; </i><span  data-testid="currentDay"></span></p>
+            </div>
+    
+            <!------Time Div-------->
+            <div class="time">
+            <p> <i class='bx bxs-time'></i>&nbsp; <span data-testid="currentTimeUTC" ></span> </p>
+        </div>
+
+                <!-- goal as a dev -->
+        <div >
+            <h2>My Goals as a Developer in 2years</h2>
+            <p>Increase my professional network</p>
+                <p>Build several solutions for clients and companies</p>
+                <p>Improve my soft skills</p>
+                <p>Earn $5000 monthly in my field</p>
+                <p>Learn new technologies</p>
+        </div>
+
+             <!-- Links -->
+      <div class="additional-links">
+        <h2>Learning Resources</h2>
+       <p><a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a></p>
+       <p><a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a></p>
+                    <p><a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></p>
+                </div>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
