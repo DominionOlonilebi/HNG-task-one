@@ -17,8 +17,8 @@ setInterval(() => {
     const minutesUTC = now.getUTCMinutes();
     const secondsUTC = now.getUTCSeconds();
 
-    // Adjust for UTC-5 (Eastern Time Zone for example)
-    const hours = (hoursUTC + 1) % 24; // Adding 5 hours to UTC to get EST/EDT
+    // Adjust for UTC-1 (Eastern Time Zone for example)
+    const hours = (hoursUTC + 1) % 24; // Adding 1 hour to UTC to get EST/EDT
     const ampm = hours >= 12 ? 'PM' : 'AM';
     const hours12 = hours % 12 || 12; // Convert to 12-hour format
 
